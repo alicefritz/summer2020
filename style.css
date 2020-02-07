@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sortButton{
+    width: 30rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-family: inherit;
+    background-color: #009DE0;
+    border: 0;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.35);
+}
+
+#restaurants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; width: 100%;
+    height: 100%;
+}
+
+.restaurantCard{
+    box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.35);
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 2%;
+    overflow: hidden;
+    transition-duration: 250ms;
+}
+
+.restaurantCard:hover{
+    transform: scale(1.03);
+}
+
+.restaurantTitle{
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 2rem;
+    overflow: hidden;
+    text-align:center;
+    padding: 0.4rem;
+    border-bottom: 1px dashed gray;
+}
+
+.restaurantImage{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.online{
+    width: 100%;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.open{
+    background-color: green;
+}
+
+.closed{
+    background-color: red;
+}
+
+.tags{
+    margin: 0.5rem;
+}
+
+
+
+
+
+
+
